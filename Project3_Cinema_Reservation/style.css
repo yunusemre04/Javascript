@@ -1,0 +1,85 @@
+.seat{
+    background-color: rgba(200, 200, 211, 0.868);
+   
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin: 8px 8px;
+    
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin: 8px 8px;
+}
+body{
+    background-color: rgb(33, 33, 34);
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.screen{
+    background-color: white;
+    height: 130px;
+    width: 40%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px white;
+    margin-top: 25px;
+}
+.seat.full{
+    background-color: red;
+}
+.seat.empty{
+    background-color: rgba(200, 200, 211, 0.868);
+}
+.seat.selected{
+    background-color: green;
+}
+.seat:nth-child(2){
+  margin-right: 35px;
+}
+.seat:nth-last-child(3){
+    margin-right: 35px;
+}
+.seat:not(.full):hover{
+    cursor: pointer;
+    transform:scale(1.3);
+}
+
+.info{
+    background-color: rgb(33, 33, 34);
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 35%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    list-style: none;
+    color: white;
+    border: solid 2px white;
+    
+}
+.movies{
+    background-color: rgb(33, 33, 34);
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 35%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    border: solid 2px white;
+}
+div p span{
+    color:brown;
+}

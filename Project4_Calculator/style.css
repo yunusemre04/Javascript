@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(33, 33, 34);
+}
+
+.row{
+    justify-content: center;
+}
+.showResult{
+    width: 100%;
+    border:  5px solid black;
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px;
+    height: 100px;
+    background-color: black;
+}
+
+.operator{
+    background-color: orange;
+}
+
+input{
+    height: 100%;
+    border-radius: 10px;
+    color:white;
+    font-size: 50px;
+    padding-left: 10px;
+  
+    
+}
+.key{
+   margin: 0px;
+   width: 23%;
+   height: 50px;
+   border-radius: 5px;
+
+}
+.key:hover{
+    background-color: #212121;
+    color: white;
+}
+.keys{
+    padding: 0px;
+    border: 10px solid red;
+    background-color:black;
+    height: 50%;
+    padding: 5px;
+
+}
+.footer{
+    width: 100%;
+    border:  5px solid black;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px;
+    height: 75px;
+    background-color: black;
+}
+button:hover{
+    background-color: grey;
+}

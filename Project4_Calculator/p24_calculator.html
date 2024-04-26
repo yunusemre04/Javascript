@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container ">
+            <div class="row mt-5 mx-3">
+                <div class="col-md-5">
+                    <div class="calculator">
+                        <div class="showResult">
+                            <input type="text" class="w-100" id="display" disabled value="0">
+                        </div>
+                        <div class="keys border border-dark ">
+                            <div class="row">
+                                <button class="key operator" value="+">+</button>
+                                <button class="key operator" value="-">-</button>
+                                <button class="key operator" value="*">&times;</button>
+                                <button class="key operator" value="/">&divide;</button>
+                            </div>
+                                <div class="row">
+                                <button class="key" value="1">1</button>
+                                <button class="key" value="2">2</button>
+                                <button class="key" value="3">3</button>
+                                <button class="key" value="4">4</button>
+                            </div>
+                            <div class="row">
+                                <button class="key" value="5">5</button>
+                                <button class="key" value="6">6</button>
+                                <button class="key" value="7">7</button>
+                                <button class="key" value="8">8</button>
+                            </div>
+                            <div class="row">
+                                <button class="key" value="9">9</button>
+                                <button class="key" value="0">0</button>
+                                <button class="key decimal" value=".">.</button>
+                                <button class="key bg-success operator" value="=">=</button>
+                            </div>
+                        </div>
+                        <div class="footer text-light px-2 pt-2">
+                            <button class=" btn btn-danger w-100 clear"><span class="h5">AC</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="script.js">
+
+        </script>    
+    </body>
+</html>

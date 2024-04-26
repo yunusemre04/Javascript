@@ -1,0 +1,61 @@
+body{
+    background-color: #222;
+    
+}
+.container{
+    position: relative;
+}
+
+
+#gameInfo{
+    text-decoration: underline;
+    color:white;
+}
+
+
+.info{
+    position:absolute;
+    top:30%;
+    right: 5%;
+    margin: 5%
+
+}
+.info h6{
+    text-decoration: underline;
+}
+
+.wrong-letter{
+    background-color:red;    
+    font-size: xx-large;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;   
+}
+
+.word-letter{
+    border-bottom: 5px green solid;
+    font-size: 50px;
+    margin-right:10px ;
+    margin-left:10px;
+    margin-top: 0px;
+}
+.word-header{
+    margin-bottom: 5px;
+}
+#popup{
+    position:absolute;
+    transform: (-50,-50);
+    justify-content: center;
+    align-items: center;
+    top:45%;
+    right:33%;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 35%;
+    display: none;
+    background-color: green;
+
+}
+
+.item{display: none;}
