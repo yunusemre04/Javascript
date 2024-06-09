@@ -22,24 +22,25 @@
             </div>
             <div class="row justify-content-center my-2">
                 <div class="result text-center my-2 d-none">
-                    <span class="h1 px-2 py-1">1000$=17000tl</span>
+                    <span class="number h1 px-2 py-1"></span>
                 </div>
                 <div class="selection justify-content-center col-6">
                     <label for="s1" class="form-text-label"><span class="h6">Currency 1</span></label>
-                    <input type="text" class="form-control my-1" id="s1" list="list1" placeholder="Select a Currency">
-                    <datalist id="list1"></datalist>
+                    <select class="form-control" id="list1">
+                        
+                    </select>
                      
                     <label for="s2" class="form-text-label mt-1"><span class="h6">Currency 2</span></label>
-                    <input type="text" class="form-control my-1"  id="s2" list="list2" placeholder="Select a Currency">
-                    <datalist id="list2"></datalist>
+                    <select class="form-control" id="list2">
+                        
+                    </select>
 
                     <label for="amount" class="form-text-label mt-1"><span class="h6">Amount</span></label>
                     <input type="number" class="form-control my-1"  id="amount" placeholder="Select Amount">
                      
                     <div class="text-center mt-3">
-                        <button type="button" class="btn btn-danger col-5">Translate</button>
+                        <button type="button" class="btn btn-dark h6 col-5" id="cBtn">CALCULATE</button>
                     </div>
-                    
                 </div>
             </div>
             
