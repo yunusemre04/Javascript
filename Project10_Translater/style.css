@@ -1,0 +1,32 @@
+.h-icon{
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.translate-box{
+    min-height: 10rem;
+}
+
+
+.translate-box textarea{
+    min-height: 17rem;
+    overflow-y: auto;
+    font-size: x-large;
+}
+
+.header{
+    border:2px solid dimgrey;   
+    border-radius: 0px;
+    padding-left: 6px;
+    min-height: 4rem;
+    
+}
+.header span{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.h-icon:hover{
+    background-color:#ffaa00;
+    border-color: rgb(39, 37, 37);
+}

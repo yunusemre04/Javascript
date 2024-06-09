@@ -1,0 +1,19 @@
+.primary{
+    
+    min-height: 2rem;
+}
+
+.primary-item{
+    border: solid 2px rgb(244, 98, 7);
+    border-radius: 5px;
+    height:3rem;
+    margin: 2px;
+    background-color: orange;
+    
+}
+
+.result span{
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: rgb(231, 179, 9);
+}

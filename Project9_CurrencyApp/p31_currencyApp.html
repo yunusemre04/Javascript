@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="bg-dark text-light text-center m-1 pb-2">Currency App</h1>
+                </div>
+            </div>
+            <div class="primary">
+                <div class="row mx-1">
+                    <div class="primary-item col-md text-center pt-1" id="item1"></div>
+                    <div class="primary-item col-md text-center pt-1" id="item2"></div>
+                    <div class="primary-item col-md text-center pt-1" id="item3"></div>
+                    <div class="primary-item col-md text-center pt-1" id="item4"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center my-2">
+                <div class="result text-center my-2 d-none">
+                    <span class="h1 px-2 py-1">1000$=17000tl</span>
+                </div>
+                <div class="selection justify-content-center col-6">
+                    <label for="s1" class="form-text-label"><span class="h6">Currency 1</span></label>
+                    <input type="text" class="form-control my-1" id="s1" list="list1" placeholder="Select a Currency">
+                    <datalist id="list1"></datalist>
+                     
+                    <label for="s2" class="form-text-label mt-1"><span class="h6">Currency 2</span></label>
+                    <input type="text" class="form-control my-1"  id="s2" list="list2" placeholder="Select a Currency">
+                    <datalist id="list2"></datalist>
+
+                    <label for="amount" class="form-text-label mt-1"><span class="h6">Amount</span></label>
+                    <input type="number" class="form-control my-1"  id="amount" placeholder="Select Amount">
+                     
+                    <div class="text-center mt-3">
+                        <button type="button" class="btn btn-danger col-5">Translate</button>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="script.js">
+
+        </script>    
+    </body>
+</html>
