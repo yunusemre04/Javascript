@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row mb-1">
+                <div class="col-12">
+                    <div class="bg-dark text-light h1 p-1" id="title">Search Profile</div>
+                    <label for="search">Profile Username</label>
+                    <input id="search" type="text" class="form-control">
+                </div>
+            </div>
+            <div id="profileBox" class="">
+               
+            </div>
+            <div class="mt-1 d-none" id="todoBox">
+                <h2 class="border bg-dark text-light p-1" style="border-radius:4px">Todo List</h1>
+                <ul class="list-group" id="todoList">
+
+                </ul>
+            </div>
+            <div class=" alert alert-danger d-none" id="alertBox">
+                Couldn't Find Profile About This Username
+            </div>
+            <div class="alert alert-warning" id="infoAlert">
+                You can enter this usernames for information : Bret ,Samantha,Antonette,Karianne,Kamren
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="script.js">
+
+        </script>    
+    </body>
+</html>

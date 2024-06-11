@@ -1,0 +1,14 @@
+#title{
+    border: black solid 2px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.infoBox li{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.card-footer{
+    font-size: larger;
+    font-weight: bolder;
+}
