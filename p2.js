@@ -14,3 +14,5 @@ console.log(url.startsWith("https"));
 console.log(courseName.includes("training"));
 var str=`${url}${courseName}`;
 console.log(str);
+
+

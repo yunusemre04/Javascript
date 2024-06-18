@@ -1,0 +1,31 @@
+table{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.info{
+    border:2px solid rgb(114, 110, 110);
+}
+
+.bi-pin-angle-fill{
+    border: 2px solid rgb(38, 34, 34);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.bi-pin-angle-fill:hover{
+    background-color: black;
+    color: white;
+}
+
+td{
+    background-color: black;
+    color:rgb(232, 232, 8)
+}
+
+tbody .i{
+    background-color: #ffc107
+}
+
+
