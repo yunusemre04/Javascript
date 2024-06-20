@@ -1,0 +1,1 @@
+(()=>{var e={311:e=>{e.exports=[{name:"mehmet",age:35},{name:"ali",age:28}]}},r={};console.log(function o(t){var a=r[t];if(void 0!==a)return a.exports;var n=r[t]={exports:{}};return e[t](n,n.exports,o),n.exports}(311))})();

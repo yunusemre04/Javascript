@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "p35_npm.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
