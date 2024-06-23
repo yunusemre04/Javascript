@@ -1,7 +1,9 @@
 const path=require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
 const HtmlWebPackPlugin=require("html-webpack-plugin");
 module.exports={
-    entry:"./src/js/p35_npm.js",
+    entry:"./src/js/index.js",
     output:{
         path:path.resolve(__dirname,"dist"),
         filename:"js/bundle.js"
@@ -15,7 +17,11 @@ module.exports={
     plugins:[
         new HtmlWebPackPlugin({
             filename:"index.html",
-            template:"./src/template.html"
+            template:"./src/p36_Movie.html"
+        }),
+        new MiniCssExtractPlugin({
+            filename: 'style2.css',
+        
         })
     ],
     module: {
@@ -29,6 +35,11 @@ module.exports={
                 presets: ['@babel/preset-env']
             }
             }
+        },
+        
+        {
+            test: /\.css$/i,
+            use: [MiniCssExtractPlugin.loader, 'css-loader']
         }
         ]
     }
