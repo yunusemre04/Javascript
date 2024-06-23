@@ -20,7 +20,7 @@ module.exports={
             template:"./src/p36_Movie.html"
         }),
         new MiniCssExtractPlugin({
-            filename: 'style2.css',
+            filename: 'style.css',
         
         })
     ],

@@ -1,0 +1,52 @@
+.bi-search:hover{
+    background-color: white;
+    color:black
+}
+
+.header{
+    border: white 2px solid;
+    border-radius: 5px;
+}
+
+.info{
+    border: 2px white solid;
+    border-radius: 3px;
+}
+
+.movieAverage{
+    border-radius: 10px;
+    margin-right: 12px;
+}
+.moreInfo{
+    border : 3px solid white
+}
+.moreInfo:hover{
+    border-color: orangered;
+    background-color: orangered;
+    
+}
+.movieLink{
+    color:white
+}
+.movieLink:hover{
+    color:orange
+}
+
+.list-group-item{
+    background-color: orange;
+    color:black
+}
+
+.backIcon{
+    background-color: rgb(60, 64, 60);
+    border:2px rgb(60, 64, 60) solid;
+    padding:5px; 
+    margin:10px;
+}
+.backIcon:hover{
+    background-color: red;
+}
+
+.resultNumber{
+    border: 2px solid white;
+}
